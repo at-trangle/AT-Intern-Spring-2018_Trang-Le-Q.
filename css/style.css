@@ -1,30 +1,30 @@
 body {
-	font-family: 'Conv_MyriadProRegular';
+  font-family: 'Conv_MyriadProRegular';
 }
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 a {
-	text-decoration:none; 
+  text-decoration:none; 
 }
 img {
   max-width: 100%;
 }
 .clear {
-	clear: both;
+  clear: both;
 }
 li {
-	list-style: none;
+  list-style: none;
 }
 .container {
-	margin: auto;
+  margin: auto;
 }
 .hada-btn {
-	width: 125px;
-	height: 40px;
-	border-radius: 7px;
+  width: 125px;
+  height: 40px;
+  border-radius: 7px;
   border: none;
   color: #fff;
   text-transform: uppercase;
@@ -37,7 +37,7 @@ li {
     
 }
 .view-more a {
-	color: #fff!important;
+  color: #fff!important;
 }
 .section-title { 
   padding-top: 50px;
@@ -99,100 +99,101 @@ li {
 }
 /*header hadatour & menu navigation*/
 #page-header {
-	height: 100px;
-	margin-top: 10px;
+  height: 100px;
+  margin-top: 10px;
 }
 .hada-logo {
-	width: 140px;
-	float: left;
-	cursor: pointer;
+  width: 140px;
+  float: left;
+  cursor: pointer;
 }
 .hada-service-nav {
-	float: right;
-	position: relative;
+  float: right;
+  position: relative;
 }
 .hada-service-nav::after{
-	content: "";
-	clear: both;
+  content: "";
+  clear: both;
 }
 .hada-service-nav .service {
   position: absolute;
   right: 0
 }
 .hada-service-nav .all-service {
-	float: left;
+  float: left;
 }
 .hada-service-nav .all-service .icon-phone {
-	width: 35px;
-	height: 35px;
-	float: left;
-	margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-right: 10px;
   line-height: 45px;
 }
 .hada-service-nav .customer-service {
-	margin-right: 40px;
+  margin-right: 40px;
 }
 .hada-service-nav .all-service .infor-service {
-	float: left;
+  float: left;
 }
 .hada-service-nav .all-service .infor-service p {
-	font-size: 14px;
+  font-size: 14px;
 }
 .hada-service-nav .all-service .infor-service strong {
-	color: #ffa800;
-	cursor: pointer;
+  color: #ffa800;
+  cursor: pointer;
 }
 .navigation-bars {
- 	margin-top: 65px;
- 	text-align: right;
+  margin-top: 65px;
+  text-align: right;
 }
 .navigation-bars ul {
-	display: flex;
+  display: flex;
 }
 .navigation-bars ul li {
   margin-left: 30px;
- 	text-transform: uppercase;
- 	font-weight: bold;
- 	font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
 }
 /*css section banner hada page*/
 #page-banner {
-	margin-top: 10px;
-	position: relative;
+  margin-top: 10px;
+  position: relative;
 }
 .infor-banner {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-align: center;
-	color: #fff;
-	text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
   font-weight: bold;
 }
 .infor-banner h1 {
-	font-size: 43px;
+  font-size: 43px;
   font-family: "UTM FacebookB K&T", sans-serif;
 }
 .infor-banner p {
-	font-family: "UTM BryantLG", sans-serif;
+  font-family: "UTM BryantLG", sans-serif;
   font-size: 14px;
   margin: 40px 0;
 }
 .infor-banner button {
+  
 }
 .infor-banner button a{
-	color: #fff;
-	font-family: "UTM BryantLG",sans-serif;
+  color: #fff;
+  font-family: "UTM BryantLG",sans-serif;
   font-size: 14px;
   font-weight: 600;
 }
 .infor-banner .view-tour {
-	background: #0ec0ee; 
-	margin-right: 10px;
+  background: #0ec0ee; 
+  margin-right: 10px;
 } 
 .infor-banner .detail-tour {
-	border: 2px solid;
+  border: 2px solid;
 }
 
 /*css section interested tour*/
@@ -201,37 +202,37 @@ li {
   top: -110px;
 }
 .container > span{
-	color: #fff;
-	margin-right: 20px;
+  color: #fff;
+  margin-right: 20px;
 }
 .list-tour-interes {
-	margin: 35px -10px 0 -10px;
+  margin: 35px -10px 0 -10px;
 }
 .list-tour-interes .item-tour-interes {
-	width: 25%;
-	float: left;
-	padding: 0 10px;
+  width: 25%;
+  float: left;
+  padding: 0 10px;
 }
 .list-tour-interes .item-tour-interes .border-on {
-	border-radius: 5px !important;
+  border-radius: 5px !important;
   box-shadow: 0px 1px 2px 0px rgba(3, 3, 3, 0.15);
   background: #fff;
   overflow: hidden;
 }
 .list-tour-interes .item-tour-interes .item-interes-img {
-	overflow: hidden;
+  overflow: hidden;
 }
 .list-tour-interes .item-tour-interes .infor-interes-tour {
-	padding: 15px;
+  padding: 15px;
 }
 .list-tour-interes .item-tour-interes .infor-interes-tour h4 {
-	font-size: 15px;
+  font-size: 15px;
   line-height: 18px;
   text-transform: uppercase;
   font-weight: 600;
 }
 .list-tour-interes .item-tour-interes .infor-interes-tour p span {
-	font-size: 18px;
+  font-size: 18px;
   line-height: 24px;
   color: #0ec0ee;
   text-transform: uppercase;
@@ -241,30 +242,30 @@ li {
 /*css section search*/
 
 #section-search {
-	background-image: url('../images/banner.png');
+  background-image: url('../images/banner.png');
   margin-top: -70px;
 }
 #section-search > .container{
-	padding: 35px 0;
+  padding: 35px 0;
 }
 .search-logo {
-	float: left;
+  float: left;
   margin-right: 35px;
 }
 .search-group {
-	overflow: hidden;
+  overflow: hidden;
 }
 .search-group .search-list input {
-	display: none;
+  display: none;
 }
 .search-group input:checked + label {
-	border: 1px solid #dddddd;
+  border: 1px solid #dddddd;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #ffffff;
   text-align: left;
 }
 .search-group .search-list label {
-	font-family: "MyriadPro Regular", sans-serif;
+  font-family: "MyriadPro Regular", sans-serif;
   font-size: 26px;
   display: inline-block;
   margin: 0 0 -1px;
@@ -301,7 +302,7 @@ li {
   width: 18%;
 }
 .search-form {
-	position: relative;
+  position: relative;
 }
 .search-form span{
   color: rgba(3, 3, 3, 0.15);
@@ -323,15 +324,15 @@ li {
   margin-left: 10px;
 }
 .search-group .tab-search .hada-btn-search img{
-	width: 17px;
-	height: 17px;
-	display: inline-block
+  width: 17px;
+  height: 17px;
+  display: inline-block
 }
 
 /* section-list-tour
 -------------------------------------------------------------- */
 #section-list-tour{
-	padding: 35px 0;
+  padding: 35px 0;
 }
 .box-list-tour {
   margin: 0 -10px;
@@ -441,7 +442,7 @@ li {
   padding-right: 20px;
 }
 .infor-name-item img{
-	width: 82px;
+  width: 82px;
 }
 /* section-support-online
 -------------------------------------------------------------- */
@@ -454,7 +455,7 @@ li {
   background-image: url(../images/parallax/bg-parallax1.jpg);
 }
 .style-color{
-	font-size: 32px;
+  font-size: 32px;
 }
 .section-support-online .style-center {
   display: flex;
@@ -475,8 +476,8 @@ li {
   text-align: center;
 }
 .section-support-online .support-list .support-item img {
-	width: 32px;
-	height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .section-support-online .support-list .support-item::after {
@@ -507,7 +508,7 @@ li {
 /* section-activity-images
 -------------------------------------------------------------- */
 #section-activity-images{
-	padding: 30px 0;
+  padding: 30px 0;
 }
 .album-list {
   margin: 0 -10px;
@@ -557,12 +558,12 @@ li {
   float: right;
 }
 .activity-title {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .activity-title > span {
-	color: #000;
-	margin-right: 20px;
-	font-family: "MyriadPro Regular";
+  color: #000;
+  margin-right: 20px;
+  font-family: "MyriadPro Regular";
   font-size: 24px;
   text-transform: uppercase;
   font-weight: 600;
@@ -571,7 +572,7 @@ li {
 /* css footer
 -------------------------------------------------------------- */
 footer {
-	background: #fff;
+  background: #fff;
     padding-top: 30px;
 }
 .page-footer {
@@ -679,15 +680,15 @@ footer {
   color: #ffa800;
 }
 @media screen and (min-width: 1280px) {
-	.container {
-		width: 1170px;
-	}
+  .container {
+    width: 1170px;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-	.container {
-		width: 970px;	
-	}
-	.hada-logo {
+  .container {
+    width: 970px;  
+  }
+  .hada-logo {
     width: 120px;
   }
   .hada-service-nav {
@@ -700,31 +701,31 @@ footer {
     margin-left: 25px;
     font-size: 14px;
   }
-	#page-banner {
-   	margin-top: 0; 
-	}
-	.infor-banner h1 {
-		font-size: 40px;
+  #page-banner {
+     margin-top: 0; 
+  }
+  .infor-banner h1 {
+    font-size: 40px;
   }
  
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-	.container{
-		width: 740px;	
-	}
-	.hada-service-nav {
+  .container{
+    width: 740px;  
+  }
+  .hada-service-nav {
     display: none;
   }
   .infor-banner h1 {
     font-size: 40px;
     line-height: 40px;
-	}
+  }
   .hada-btn {
     width: 100px;
     height: 35px;
   }
   .hada-btn a{ 
-  	font-size: 11px;
+    font-size: 11px;
   }
   .infor-banner p {
     font-size: 16px;
@@ -775,13 +776,13 @@ footer {
   .footer-logo img {
     width: 150px;
   }
-  .menu-nav-respon{
+  .menu-nav-respon {
     display: block;
   }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
-	.container{
-		width: 460px;	
+  .container{
+    width: 460px;  
   }
   .hada-service-nav {
     display: none;
@@ -789,13 +790,13 @@ footer {
   .infor-banner h1 {
     font-size: 30px;
     line-height: 40px;
-	}
+  }
   .hada-btn {
     width: 100px;
     height: 35px;
   }
   .hada-btn a{ 
-  	font-size: 11px;
+    font-size: 11px;
   }
   .infor-banner p {
     font-size: 14px;
@@ -894,8 +895,8 @@ footer {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 479px) {
-	.container{
-		width: 300px;	
+  .container{
+    width: 300px;  
   }
   #page-header {
     height: 75px;
@@ -925,7 +926,7 @@ footer {
     height: 35px;
   }
   .hada-btn a{ 
-  	font-size: 11px;
+    font-size: 11px;
   }
   .infor-banner p {
     display: none;
@@ -1011,7 +1012,7 @@ footer {
   .footer-logo img {
     width: 150px;
   }
-  .menu-nav-respon{
+  .menu-nav-respon {
     display: block;
   }
   .nav-respon {
